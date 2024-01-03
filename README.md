@@ -17,8 +17,8 @@ extracting valuable information from large volumes of data.
 ## Models Fine-tuned in aeroespace intelligence context
 
 ### BERT
-[Dataset 1](https://thesoftwaredesignlab.github.io)
-[Dataset 2](https://thesoftwaredesignlab.github.io)
+[FTBERT_DS1](https://thesoftwaredesignlab.github.io)
+[FTBERT_DS2](https://thesoftwaredesignlab.github.io)
 
 The Bidirectional Encoder Representations from Transformers approach(BERT)[8] is one of the most used in the last few years accounting for a total of 70+ NER
 models capable of predicting text over 70 languages. BERT was designed by Google researchers and it is based on the **Transformer architecture**** based solely on attention
@@ -27,16 +27,16 @@ mechanisms on long sequences of text to identify their connections[9].
 !(/assets/images/bert.png)
 
 ### Flair
-[Dataset 1](https://thesoftwaredesignlab.github.io)
-[Dataset 2](https://thesoftwaredesignlab.github.io)
+[FTflair_DS1](https://thesoftwaredesignlab.github.io)
+[FTflair_DS2](https://thesoftwaredesignlab.github.io)
 
 NLP framework developed bythe Humboldt University of Berlin, known as Flair. This framework integrates NER models in four languages: English, Dutch, **Spanish**, and German[18].
 
 !(/assets/images/bert.png)
 
 ### spaCy
-[Dataset 1](https://thesoftwaredesignlab.github.io)
-[Dataset 2](https://thesoftwaredesignlab.github.io)
+[FTspaCy_DS1](https://thesoftwaredesignlab.github.io)
+[FTspaCy DS2](https://thesoftwaredesignlab.github.io)
 
 Open-source software library that allows for the extraction of information from large volumes of data using Natural Language Processing in 26 different languages. It was written in the programming
 language Python, and one of its functions is focused on extracting entities[22]. SpaCy uses a neural network model within a transition-based parser model, incorporating Convolutional Neural Network (CNN) encoding layers to reduce the word dimensionality along three subnetworks.
