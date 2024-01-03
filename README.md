@@ -57,14 +57,17 @@ Colombian Military Forces, or by military personnel from these institutions. Thi
 
 ### BERT
 For the case of of BERT models, we used model is BETO cased NER fine-tuned(BETO CFT), it is a large Spanish corpus and fine-tuned specifically to conduct NER TASK in Spanish
+
 [BETO CFT](https://huggingface.co/dccuchile/bert-base-spanish-wwm-cased-finetuned-ner/commit/0cf7cc10bc005707fa8a70ba3739c7d1b50b2630)
 
 ### FLAIR
+We used Spanish-NER-Flair-large-model (SFLM); this model uses a transformer architecture and has not been documented in a military context in the literature; however, its performance in the Spanish language was assessed during the open innovation event CODEFEST AD ASTRA 2023 [51]
 [Dataset 2](https://thesoftwaredesignlab.github.io)
 
 ### spaCy
 The model used of spaCy library was es-core-news-lg model (ECNLM), it features a data pipeline with NER components that achieved the highest scores among the three available spaCy models for the Spanish language 
-[ECNLM]([https://thesoftwaredesignlab.github.io](https://spacy.io/models/es))
+
+[ECNLM](https://spacy.io/models/es)
 
 
 ## References
