@@ -24,7 +24,7 @@ The Bidirectional Encoder Representations from Transformers approach(BERT)[8] is
 models capable of predicting text over 70 languages. BERT was designed by Google researchers and it is based on the **Transformer architecture**** based solely on attention
 mechanisms on long sequences of text to identify their connections[9].
 
-(/assets/img/bert.png)
+![Prueba](/assets/img/bert.png)
 
 ### Flair
 [FTflair_DS1](https://thesoftwaredesignlab.github.io)
@@ -32,7 +32,7 @@ mechanisms on long sequences of text to identify their connections[9].
 
 NLP framework developed bythe Humboldt University of Berlin, known as Flair. This framework integrates NER models in four languages: English, Dutch, **Spanish**, and German[18].
 
-!(/assets/img/bert.png)
+![Prueba](/assets/img/bert.png)
 
 ### spaCy
 [FTspaCy_DS1](https://thesoftwaredesignlab.github.io)
@@ -40,7 +40,7 @@ NLP framework developed bythe Humboldt University of Berlin, known as Flair. Thi
 
 spaCy is a Open-source software library that allows for the extraction of information from large volumes of data using Natural Language Processing in 26 different languages. SpaCy uses a neural network model within a transition-based parser model, incorporating **Convolutional Neural Network (CNN)** encoding layers to reduce the word dimensionality along three subnetworks.
 
-!(/assets/img/bert.png)
+![Prueba](/assets/img/bert.png)
 
 ## Datasets
 We have created a corpus of 694 documents across three datasets. The first dataset (𝐷𝑆1) contains historical events from public sources such as the Military Historical Memory Report in 2019 [48] or the Executive Report on Achievements and Mission Challenges of the Colombian defense sector in 2021 [49], among others; the second (𝐷𝑆2) contains news related to the Colombian Amazon searched through google; and the third dataset (𝐷𝑆3) consists of classified data containing internal textual reports from the Colombian Aerospace Force. 
