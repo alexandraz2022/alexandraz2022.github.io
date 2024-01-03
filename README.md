@@ -1,12 +1,11 @@
-# NER Models for Aerospace Intelligence
+# Using Natural Language Procesing for Aerospace Intelligence
 
-# Deep Learning Models in Colombian Military Context
+# Colombian Aeroespace Force, Universidad de los Andes, Florida State University
 
-#### Colombian Aeroespace Force, Universidad de los Andes, Florida State University
-
+#### Deep Learning Named Entity Recognition Models 
 
 ## Abstract
-An empirical study conducted on two datasets related to the Colombian
+An empirical study conducted on three datasets related to the Colombian
 Aerospace Force, aiming to evaluate the performance of three deep learning models in extracting
 entities from documents written in Spanish. We used models with transformers and convolutional
 architectures to compare their performance in the Precision, Recall, and F1 Metrics. Our
@@ -15,36 +14,31 @@ exhibited limitations when applied off-the-shelf. However, after fine-tuning, th
 increased considerably, making them useful in military contexts with aerospace technology for
 extracting valuable information from large volumes of data.
 
-## Work Experience
-**Data Scientist @ Toyota Financial Services (_June 2022 - Present_)**
-- Uncovered and corrected missing step in production data pipeline which impacted over 70% of active accounts
-- Redeveloped loan originations model which resulted in 50% improvement in model performance and saving 1 million dollars in potential losses
 
-**Data Science Consultant @ Shawhin Talebi Ventures LLC (_December 2020 - Present_)**
-- Conducted data collection, processing, and analysis for novel study evaluating the impact of over 300 biometrics variables on human performance in hyper-realistic, live-fire training scenarios
-- Applied unsupervised deep learning approaches to longitudinal ICU data to discover novel sepsis sub-phenotypes
-
-## Models 
 ### BERT
 [Dataset 1](https://thesoftwaredesignlab.github.io)
 [Dataset 2](https://thesoftwaredesignlab.github.io)
 
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
+The Bidirectional Encoder Representations from Transformers approach(BERT)[8] is one of the most used in the last few years accounting for a total of 70+ NER
+models capable of predicting text over 70 languages. BERT was designed by Google researchers and it is based on the **Transformer architecture**** based solely on attention
+mechanisms on long sequences of text to identify their connections[9].
 
-!(/assets/img/bert.png)
+!(/assets/images/bert.png)
 
 ### Flair
 [Dataset 1](https://thesoftwaredesignlab.github.io)
 [Dataset 2](https://thesoftwaredesignlab.github.io)
 
-Used **Matlab** to train over 100 machine learning models which estimated particulate matter concentrations based on a suite of over 300 biometric variables. We found biometric variables can be used to accurately estimate particulate matter concentrations at ultra-fine spatial scales with high fidelity (r2 = 0.91) and that smaller particles are better estimated than larger ones. Inferring environmental conditions solely from biometric measurements allows us to disentangle key interactions between the environment and the body.
-!(/assets/img/bert.png)
+NLP framework developed bythe Humboldt University of Berlin, known as Flair. This framework integrates NER models in four languages: English, Dutch, **Spanish**, and German[18].
+
+!(/assets/images/bert.png)
 
 ### spaCy
 [Dataset 1](https://thesoftwaredesignlab.github.io)
 [Dataset 2](https://thesoftwaredesignlab.github.io)
 
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
+Open-source software library that allows for the extraction of information from large volumes of data using Natural Language Processing in 26 different languages. It was written in the programming
+language Python, and one of its functions is focused on extracting entities[22]. SpaCy uses a neural network model within a transition-based parser model, incorporating Convolutional Neural Network (CNN) encoding layers to reduce the word dimensionality along three subnetworks.
 
 !(/assets/images/bert.png)
 
@@ -58,6 +52,22 @@ Developed objective strategy for discovering optimal EEG bands based on signal p
 
 ### spaCy
 [Dataset 2](https://thesoftwaredesignlab.github.io)
+
+## Datasets
+**First dataset (𝐷𝑆1) **
+-  (𝐷𝑆1)  using public documents or academic literature available on the internet and published by either the official communications of the Colombian Ministry of Defense, the General Command of
+Colombian Military Forces, or by military personnel from these institutions. This dataset includes paragraphs of awareness situations, events related to security breaches, or acts of violence in the Spanish language, which include military argot and describe historical facts. 
+
+**Second dataset (𝐷𝑆1) **
+- (𝐷𝑆2) focuses on one of the most crucial areas of concern for the Colombian Aerospace Force. It
+includes 187 news spanning from 2013 to 2023, delving into events related to the Colombian Amazon Affectations. This
+analysis of data is important because is one source of data to complement the information obtained using aerial missions,
+satellite sensors, infrared optics sensors, and specialized software processing, among other aerospace technologies
+to analyze the media environment impact focus on the Colombian Amazon Region. In this dataset, we can find
+information about the entities involved or affected by these events. It was created by students from the Noncommissioned
+Officer Academy in the Colombian Aerospace Force and was used in the programming marathon dedicated to Amazon protection, known as Codefest AD ASTRA 2023 [ 51 ]. 
+
+## Models 
 
 ## References
 - Causality: The new science of an old question - GSP Seminar, Fall 2021
