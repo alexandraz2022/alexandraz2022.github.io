@@ -24,7 +24,7 @@ The Bidirectional Encoder Representations from Transformers approach(BERT)[8] is
 models capable of predicting text over 70 languages. BERT was designed by Google researchers and it is based on the **Transformer architecture**** based solely on attention
 mechanisms on long sequences of text to identify their connections[9].
 
-!(/assets/img/bert.png)
+(/assets/img/bert.png)
 
 ### Flair
 [FTflair_DS1](https://thesoftwaredesignlab.github.io)
