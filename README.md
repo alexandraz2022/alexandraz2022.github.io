@@ -43,11 +43,14 @@ language Python, and one of its functions is focused on extracting entities[22].
 !(/assets/images/bert.png)
 
 ## Datasets
+We have created a corpus of 694 documents across three datasets. The first dataset (𝐷𝑆1) contains historical events from public sources such as the Military Historical Memory Report in 2019 [48] or the Executive Report on Achievements and Mission Challenges of the Colombian defense sector in 2021 [49], among others; the second (𝐷𝑆2) contains news related to the Colombian Amazon searched through google; and the third dataset (𝐷𝑆3) consists of classified data containing internal textual reports from the Colombian Aerospace Force. 
 
 -  **(𝐷𝑆1)** Using public documents or academic literature available on the internet and published by either the official communications of the Colombian Ministry of Defense, the General Command of
-Colombian Military Forces, or by military personnel from these institutions. This dataset includes paragraphs of awareness situations, events related to security breaches, or acts of violence in the Spanish language, which include military argot and describe historical facts. 
+Colombian Military Forces, or by military personnel from these institutions. This dataset includes paragraphs of awareness situations, events related to security breaches, or acts of violence in the Spanish language, which include military argot and describe historical facts.
+[Dataset 1](https://thesoftwaredesignlab.github.io)
 
 -  **(𝐷𝑆2)** Focusing on one of the most crucial areas of concern for the Colombian Aerospace Force. DS2 includes 187 news spanning from 2013 to 2023, delving into events related to the Colombian Amazon Affectations. This data is one source of data to complement the information obtained using aerial missions, satellite sensors, infrared optics sensors, and specialized software processing, among other aerospace technologies to analyze the media environment impact focus on the Colombian Amazon Region. In this dataset, we can find information about the entities involved or affected by these events. It was created by students from the Noncommissioned Officer Academy in the Colombian Aerospace Force and was used in the programming marathon dedicated to Amazon protection, known as Codefest AD ASTRA 2023[51].
+[Dataset 2](https://thesoftwaredesignlab.github.io)
 
 
 ## Models off-the-shelf
