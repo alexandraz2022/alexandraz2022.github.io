@@ -44,30 +44,24 @@ language Python, and one of its functions is focused on extracting entities[22].
 
 ## Datasets
 
--  **(𝐷𝑆1)** using public documents or academic literature available on the internet and published by either the official communications of the Colombian Ministry of Defense, the General Command of
+-  **(𝐷𝑆1)** Using public documents or academic literature available on the internet and published by either the official communications of the Colombian Ministry of Defense, the General Command of
 Colombian Military Forces, or by military personnel from these institutions. This dataset includes paragraphs of awareness situations, events related to security breaches, or acts of violence in the Spanish language, which include military argot and describe historical facts. 
 
--  **(𝐷𝑆2)** focuses on one of the most crucial areas of concern for the Colombian Aerospace Force. It
-includes 187 news spanning from 2013 to 2023, delving into events related to the Colombian Amazon Affectations. This
-analysis of data is important because is one source of data to complement the information obtained using aerial missions,
-satellite sensors, infrared optics sensors, and specialized software processing, among other aerospace technologies
-to analyze the media environment impact focus on the Colombian Amazon Region. In this dataset, we can find
-information about the entities involved or affected by these events. It was created by students from the Noncommissioned
-Officer Academy in the Colombian Aerospace Force and was used in the programming marathon dedicated to Amazon protection, known as Codefest AD ASTRA 2023 [ 51 ].
+-  **(𝐷𝑆2)** Focusing on one of the most crucial areas of concern for the Colombian Aerospace Force. DS2 includes 187 news spanning from 2013 to 2023, delving into events related to the Colombian Amazon Affectations. This data is one source of data to complement the information obtained using aerial missions, satellite sensors, infrared optics sensors, and specialized software processing, among other aerospace technologies to analyze the media environment impact focus on the Colombian Amazon Region. In this dataset, we can find information about the entities involved or affected by these events. It was created by students from the Noncommissioned Officer Academy in the Colombian Aerospace Force and was used in the programming marathon dedicated to Amazon protection, known as Codefest AD ASTRA 2023[51].
 
 
 ## Models off-the-shelf
 
 ### BERT
-For the case of of BERT models that was trained on a large Spanish corpus and fine-tuned specifically to conduct NER TASK in Spanish, this model is BETO cased NER fine-tuned
-(BETO CFT)
-[Dataset 2](https://thesoftwaredesignlab.github.io)
+For the case of of BERT models, we used model is BETO cased NER fine-tuned(BETO CFT), it is a large Spanish corpus and fine-tuned specifically to conduct NER TASK in Spanish
+[BETO CFT](https://huggingface.co/dccuchile/bert-base-spanish-wwm-cased-finetuned-ner/commit/0cf7cc10bc005707fa8a70ba3739c7d1b50b2630)
 
 ### FLAIR
 [Dataset 2](https://thesoftwaredesignlab.github.io)
 
 ### spaCy
-This model features a data pipeline with NER components that achieved the highest scores among the three available spaCy models for the Spanish language [es-core-news-lg model (ECNLM)]([https://thesoftwaredesignlab.github.io](https://spacy.io/models/es))
+The model used of spaCy library was es-core-news-lg model (ECNLM), it features a data pipeline with NER components that achieved the highest scores among the three available spaCy models for the Spanish language 
+[ECNLM]([https://thesoftwaredesignlab.github.io](https://spacy.io/models/es))
 
 
 ## References
