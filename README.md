@@ -38,8 +38,7 @@ NLP framework developed bythe Humboldt University of Berlin, known as Flair. Thi
 [FTspaCy_DS1](https://thesoftwaredesignlab.github.io)
 [FTspaCy DS2](https://thesoftwaredesignlab.github.io)
 
-Open-source software library that allows for the extraction of information from large volumes of data using Natural Language Processing in 26 different languages. It was written in the programming
-language Python, and one of its functions is focused on extracting entities[22]. SpaCy uses a neural network model within a transition-based parser model, incorporating Convolutional Neural Network (CNN) encoding layers to reduce the word dimensionality along three subnetworks.
+spaCy is a Open-source software library that allows for the extraction of information from large volumes of data using Natural Language Processing in 26 different languages. SpaCy uses a neural network model within a transition-based parser model, incorporating **Convolutional Neural Network (CNN)** encoding layers to reduce the word dimensionality along three subnetworks.
 
 !(/assets/images/bert.png)
 
