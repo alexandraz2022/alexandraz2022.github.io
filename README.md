@@ -1,12 +1,12 @@
-# Using Natural Language Procesing for Aerospace Intelligence
+# Using Natural Language Processing for Aerospace Intelligence
 
 # Colombian Aeroespace Force, Universidad de los Andes, Florida State University
 
 #### Deep Learning Named Entity Recognition Models 
 
-## Abstract
+
 An empirical study conducted on three datasets related to the Colombian
-Aerospace Force, aiming to evaluate the performance of three deep learning models in extracting
+Aerospace Force, aims to evaluate the performance of three deep learning models in extracting
 entities from documents written in Spanish. We used models with transformers and convolutional
 architectures to compare their performance in the Precision, Recall, and F1 Metrics. Our
 findings indicate that the models under study, which were initially designed for NER tasks,
@@ -14,7 +14,7 @@ exhibited limitations when applied off-the-shelf. However, after fine-tuning, th
 increased considerably, making them useful in military contexts with aerospace technology for
 extracting valuable information from large volumes of data.
 
-## Models Fine-tuned in aeroespace intelligence context
+## Models Fine-tuned in aerospace intelligence context
 
 ### BERT
 [FTBERT_DS1](https://thesoftwaredesignlab.github.io)
@@ -43,7 +43,7 @@ spaCy is a Open-source software library that allows for the extraction of inform
 ![Prueba](/assets/img/spacy.jpg)
 
 ## Datasets
-We have created a corpus of 694 documents across three datasets. The first dataset (𝐷𝑆1) contains historical events from public sources such as the Military Historical Memory Report in 2019 [48] or the Executive Report on Achievements and Mission Challenges of the Colombian defense sector in 2021 [49], among others; the second (𝐷𝑆2) contains news related to the Colombian Amazon searched through google; and the third dataset (𝐷𝑆3) consists of classified data containing internal textual reports from the Colombian Aerospace Force. 
+We have created a corpus of 694 documents across three datasets. The first dataset (𝐷𝑆1) contains historical events from public sources such as the Military Historical Memory Report in 2019 [48] or the Executive Report on Achievements and Mission Challenges of the Colombian Defense Sector in 2021 [49], among others; the second (𝐷𝑆2) contains news related to the Colombian Amazon searched through google; and the third dataset (𝐷𝑆3) consists of classified data containing internal textual reports from the Colombian Aerospace Force. 
 
 -  **(𝐷𝑆1)** Using public documents or academic literature available on the internet and published by either the official communications of the Colombian Ministry of Defense, the General Command of
 Colombian Military Forces, or by military personnel from these institutions. This dataset includes paragraphs of awareness situations, events related to security breaches, or acts of violence in the Spanish language, which include military argot and describe historical facts.
@@ -56,7 +56,7 @@ Colombian Military Forces, or by military personnel from these institutions. Thi
 ## Models off-the-shelf
 
 ### BERT
-For the case of of BERT models, we used model is BETO cased NER fine-tuned(BETO CFT), it is a large Spanish corpus and fine-tuned specifically to conduct NER TASK in Spanish
+For the case of BERT models, we used BETO cased NER fine-tuned model (BETO CFT), it is a large Spanish corpus and fine-tuned specifically to conduct NER TASK in Spanish
 
 [BETO CFT](https://huggingface.co/dccuchile/bert-base-spanish-wwm-cased-finetuned-ner/commit/0cf7cc10bc005707fa8a70ba3739c7d1b50b2630)
 
@@ -66,7 +66,7 @@ We used Spanish-NER-Flair-large-model (SFLM); this model uses a transformer arch
 [SFLM](https://huggingface.co/flair/ner-spanish-large)
 
 ### spaCy
-The model used of spaCy library was es-core-news-lg model (ECNLM), it features a data pipeline with NER components that achieved the highest scores among the three available spaCy models for the Spanish language 
+The model used by spaCy library was es-core-news-lg model (ECNLM), it features a data pipeline with NER components that achieved the highest scores among the three available spaCy models for the Spanish language 
 
 [ECNLM](https://spacy.io/models/es)
 
