@@ -17,8 +17,8 @@ extracting valuable information from large volumes of data.
 ## Models Fine-tuned in aerospace intelligence context
 
 ### BERT
-[FTBERT_DS1](https://github.com/alexandraz2022/alexandraz2022.github.io/blob/main/models/prueba)
-[FTBERT_DS2](https://thesoftwaredesignlab.github.io)
+[FTBERT_DS1](https://github.com/alexandraz2022/alexandraz2022.github.io/blob/main/models)
+[FTBERT_DS2](https://github.com/alexandraz2022/alexandraz2022.github.io/blob/main/models)
 
 The Bidirectional Encoder Representations from Transformers approach(BERT)[8] is one of the most used in the last few years accounting for a total of 70+ NER
 models capable of predicting text over 70 languages. BERT was designed by Google researchers and it is based on the **Transformer architecture**** based solely on attention
@@ -27,16 +27,16 @@ mechanisms on long sequences of text to identify their connections[9].
 ![Prueba](/assets/img/bert.png)
 
 ### Flair
-[FTflair_DS1](https://thesoftwaredesignlab.github.io)
-[FTflair_DS2](https://thesoftwaredesignlab.github.io)
+[FTflair_DS1](https://github.com/alexandraz2022/alexandraz2022.github.io/blob/main/models)
+[FTflair_DS2](https://github.com/alexandraz2022/alexandraz2022.github.io/blob/main/models)
 
 NLP framework developed bythe Humboldt University of Berlin, known as Flair. This framework integrates NER models in four languages: English, Dutch, **Spanish**, and German[18].
 
 ![Prueba](/assets/img/flair.jpg)
 
 ### spaCy
-[FTspaCy_DS1](https://thesoftwaredesignlab.github.io)
-[FTspaCy DS2](https://thesoftwaredesignlab.github.io)
+[FTspaCy_DS1](https://github.com/alexandraz2022/alexandraz2022.github.io/blob/main/models)
+[FTspaCy DS2](https://github.com/alexandraz2022/alexandraz2022.github.io/blob/main/models)
 
 spaCy is a Open-source software library that allows for the extraction of information from large volumes of data using Natural Language Processing in 26 different languages. SpaCy uses a neural network model within a transition-based parser model, incorporating **Convolutional Neural Network (CNN)** encoding layers to reduce the word dimensionality along three subnetworks.
 
@@ -47,10 +47,10 @@ We have created a corpus of 694 documents across three datasets. The first datas
 
 -  **(𝐷𝑆1)** Using public documents or academic literature available on the internet and published by either the official communications of the Colombian Ministry of Defense, the General Command of
 Colombian Military Forces, or by military personnel from these institutions. This dataset includes paragraphs of awareness situations, events related to security breaches, or acts of violence in the Spanish language, which include military argot and describe historical facts.
-[Dataset 1](https://thesoftwaredesignlab.github.io)
+[Dataset 1](https://github.com/alexandraz2022/alexandraz2022.github.io/blob/main/datasets)
 
 -  **(𝐷𝑆2)** Focusing on one of the most crucial areas of concern for the Colombian Aerospace Force. DS2 includes 187 news spanning from 2013 to 2023, delving into events related to the Colombian Amazon Affectations. This data is one source of data to complement the information obtained using aerial missions, satellite sensors, infrared optics sensors, and specialized software processing, among other aerospace technologies to analyze the media environment impact focus on the Colombian Amazon Region. In this dataset, we can find information about the entities involved or affected by these events. It was created by students from the Noncommissioned Officer Academy in the Colombian Aerospace Force and was used in the programming marathon dedicated to Amazon protection, known as Codefest AD ASTRA 2023[51].
-[Dataset 2](https://thesoftwaredesignlab.github.io)
+[Dataset 2](https://github.com/alexandraz2022/alexandraz2022.github.io/blob/main/datasets)
 
 
 ## Models off-the-shelf
