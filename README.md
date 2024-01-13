@@ -72,22 +72,20 @@ The model used by spaCy library was es-core-news-lg model (ECNLM), it features a
 
 
 ## References
-[1]Devlin, J., Chang, M.-W., Lee, K., and Toutanova, K., “BERT: Pre-training of Deep Bidirectional Transformers for Language
-Understanding,” Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational
-Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), Association for Computational Linguistics,
-Minneapolis, Minnesota, 2019, pp. 4171–4186. https://doi.org/10.18653/v1/N19-1423, URL https://aclanthology.org/N19-1423.
-[2]Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, L. u., and Polosukhin, I., “Attention is
-All you Need,” Advances in Neural Information Processing Systems, Vol. 30, edited by I. Guyon, U. V. Luxburg, S. Bengio,
-H. Wallach, R. Fergus, S. Vishwanathan, and R. Garnett, Curran Associates, Inc., 2017.
-[3]Akbik, A., Blythe, D., and Vollgraf, R., “Contextual String Embeddings for Sequence Labeling,” COLING 2018, 27th
-International Conference on Computational Linguistics, 2018, pp. 1638–1649.
-[4]Schweter, S., and Akbik, A., “FLERT: Document-Level Features for Named Entity Recognition,” CoRR, Vol. abs/2011.06993,
-2020. URL https://arxiv.org/abs/2011.06993
-[5] Honnibal, M., and Montani, I., “spaCy 2: Natural language understanding with Bloom embeddings, convolutional neural
-networks and incremental parsing,” , 2017.
-[6]Coral, E. J. A., and Cely, E. G., “La construcción de memoria histórica militar como aporte en la construcción de la verdad en
-Colombia,” Estudios en Seguridad y Defensa, Vol. 14, No. 28, 2019, pp. 307–328
+[1]Devlin, J., Chang, M.-W., Lee, K., and Toutanova, K., “BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding,” Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), Association for Computational Linguistics, Minneapolis, Minnesota, 2019, pp. 4171–4186. https://doi.org/10.18653/v1/N19-1423, URL https://aclanthology.org/N19-1423.
+
+[2]Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, L. u., and Polosukhin, I., “Attention is All you Need,” Advances in Neural Information Processing Systems, Vol. 30, edited by I. Guyon, U. V. Luxburg, S. Bengio, H. Wallach, R. Fergus, S. Vishwanathan, and R. Garnett, Curran Associates, Inc., 2017.
+
+[3]Akbik, A., Blythe, D., and Vollgraf, R., “Contextual String Embeddings for Sequence Labeling,” COLING 2018, 27th International Conference on Computational Linguistics, 2018, pp. 1638–1649.
+
+[4]Schweter, S., and Akbik, A., “FLERT: Document-Level Features for Named Entity Recognition,” CoRR, Vol. abs/2011.06993, 2020. URL https://arxiv.org/abs/2011.06993
+
+[5] Honnibal, M., and Montani, I., “spaCy 2: Natural language understanding with Bloom embeddings, convolutional neural networks and incremental parsing,” 2017. 
+
+[6]Coral, E. J. A., and Cely, E. G., “La construcción de memoria histórica militar como aporte en la construcción de la verdad en Colombia,” Estudios en Seguridad y Defensa, Vol. 14, No. 28, 2019, pp. 307–328 
+
 [7]Fuerzas Militares de Colombia, “Informe Ejecutivo Logros y Retos Misionales Vigencia 2021,” 2021.
+
 [8]Fuerza Aérea Colombiana, U. d. l. A., “Codefest 2023,” , 2023. URL https://sistemas.uniandes.edu.co/codefest/2023/.
 
 
