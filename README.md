@@ -17,7 +17,7 @@ extracting valuable information from large volumes of data.
 ## Models Fine-tuned in aerospace intelligence context
 
 ### BERT
-[FTBERT_DS1](https://thesoftwaredesignlab.github.io)
+[FTBERT_DS1](models/prueba)
 [FTBERT_DS2](https://thesoftwaredesignlab.github.io)
 
 The Bidirectional Encoder Representations from Transformers approach(BERT)[8] is one of the most used in the last few years accounting for a total of 70+ NER
