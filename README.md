@@ -17,8 +17,8 @@ extracting valuable information from large volumes of data.
 ## Models Fine-tuned in aerospace intelligence context
 
 ### BERT
-[FTBERT_DS1](https://github.com/alexandraz2022/alexandraz2022.github.io/blob/main/models)
-[FTBERT_DS2](https://github.com/alexandraz2022/alexandraz2022.github.io/blob/main/models)
+[FTBERT_DS1](https://fuerzaaereacolombia-my.sharepoint.com/:f:/g/personal/alexandra_zabala_fac_mil_co/EuOZ89G_HtBPj_a6zvht3awB_nvkdXQmWJ0i0TKcizDweg?e=cwhDen)
+[FTBERT_DS2](https://fuerzaaereacolombia-my.sharepoint.com/:f:/g/personal/alexandra_zabala_fac_mil_co/EuOZ89G_HtBPj_a6zvht3awB_nvkdXQmWJ0i0TKcizDweg?e=cwhDen)
 
 The Bidirectional Encoder Representations from Transformers approach(BERT)[1] is one of the most used in the last few years accounting for a total of 70+ NER
 models capable of predicting text over 70 languages. BERT was designed by Google researchers and it is based on the **Transformer architecture**** based solely on attention
@@ -27,16 +27,16 @@ mechanisms on long sequences of text to identify their connections[2].
 ![Prueba](/assets/img/bert.png)
 
 ### Flair
-[FTflair_DS1](https://github.com/alexandraz2022/alexandraz2022.github.io/blob/main/models)
-[FTflair_DS2](https://github.com/alexandraz2022/alexandraz2022.github.io/blob/main/models)
+[FTflair_DS1](https://fuerzaaereacolombia-my.sharepoint.com/:f:/g/personal/alexandra_zabala_fac_mil_co/EuOZ89G_HtBPj_a6zvht3awB_nvkdXQmWJ0i0TKcizDweg?e=cwhDen)
+[FTflair_DS2](https://fuerzaaereacolombia-my.sharepoint.com/:f:/g/personal/alexandra_zabala_fac_mil_co/EuOZ89G_HtBPj_a6zvht3awB_nvkdXQmWJ0i0TKcizDweg?e=cwhDen)
 
 NLP framework developed bythe Humboldt University of Berlin, known as Flair. This framework integrates NER models in four languages: English, Dutch, **Spanish**, and German[3][4].
 
 ![Prueba](/assets/img/flair.jpg)
 
 ### spaCy
-[FTspaCy_DS1](https://github.com/alexandraz2022/alexandraz2022.github.io/blob/main/models)
-[FTspaCy DS2](https://github.com/alexandraz2022/alexandraz2022.github.io/blob/main/models)
+[FTspaCy_DS1](https://fuerzaaereacolombia-my.sharepoint.com/:f:/g/personal/alexandra_zabala_fac_mil_co/EuOZ89G_HtBPj_a6zvht3awB_nvkdXQmWJ0i0TKcizDweg?e=cwhDen)
+[FTspaCy DS2](https://fuerzaaereacolombia-my.sharepoint.com/:f:/g/personal/alexandra_zabala_fac_mil_co/EuOZ89G_HtBPj_a6zvht3awB_nvkdXQmWJ0i0TKcizDweg?e=cwhDen)
 
 spaCy is a Open-source software library that allows for the extraction of information from large volumes of data using Natural Language Processing in 26 different languages. SpaCy uses a neural network model within a transition-based parser model, incorporating **Convolutional Neural Network (CNN)** encoding layers to reduce the word dimensionality along three subnetworks[5].
 
