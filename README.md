@@ -17,8 +17,8 @@ extracting valuable information from large volumes of data.
 ## Models Fine-tuned in aerospace intelligence context
 
 ### BERT
-[FTBERT_DS1](https://fuerzaaereacolombia-my.sharepoint.com/:f:/g/personal/alexandra_zabala_fac_mil_co/EuOZ89G_HtBPj_a6zvht3awB_nvkdXQmWJ0i0TKcizDweg?e=cwhDen)
-[FTBERT_DS2](https://fuerzaaereacolombia-my.sharepoint.com/:f:/g/personal/alexandra_zabala_fac_mil_co/EuOZ89G_HtBPj_a6zvht3awB_nvkdXQmWJ0i0TKcizDweg?e=cwhDen)
+[FTBERT_DS1](https://drive.google.com/drive/folders/1xF4Hk8fFBry5k3swrCwGVn0hsaoM094z?usp=sharing)
+[FTBERT_DS2](https://drive.google.com/drive/folders/1xF4Hk8fFBry5k3swrCwGVn0hsaoM094z?usp=sharing)
 
 The Bidirectional Encoder Representations from Transformers approach(BERT)[1] is one of the most used in the last few years accounting for a total of 70+ NER
 models capable of predicting text over 70 languages. BERT was designed by Google researchers and it is based on the **Transformer architecture**** based solely on attention
