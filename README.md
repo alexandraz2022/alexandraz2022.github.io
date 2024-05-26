@@ -27,16 +27,16 @@ mechanisms on long sequences of text to identify their connections[2].
 ![Prueba](/assets/img/bert.png)
 
 ### Flair
-[FTflair_DS1](https://fuerzaaereacolombia-my.sharepoint.com/:f:/g/personal/alexandra_zabala_fac_mil_co/EuOZ89G_HtBPj_a6zvht3awB_nvkdXQmWJ0i0TKcizDweg?e=cwhDen)
-[FTflair_DS2](https://fuerzaaereacolombia-my.sharepoint.com/:f:/g/personal/alexandra_zabala_fac_mil_co/EuOZ89G_HtBPj_a6zvht3awB_nvkdXQmWJ0i0TKcizDweg?e=cwhDen)
+[FTflair_DS1](https://drive.google.com/drive/folders/1xF4Hk8fFBry5k3swrCwGVn0hsaoM094z?usp=sharing)
+[FTflair_DS2](https://drive.google.com/drive/folders/1xF4Hk8fFBry5k3swrCwGVn0hsaoM094z?usp=sharing)
 
 NLP framework developed bythe Humboldt University of Berlin, known as Flair. This framework integrates NER models in four languages: English, Dutch, **Spanish**, and German[3][4].
 
 ![Prueba](/assets/img/flair.jpg)
 
 ### spaCy
-[FTspaCy_DS1](https://fuerzaaereacolombia-my.sharepoint.com/:f:/g/personal/alexandra_zabala_fac_mil_co/EuOZ89G_HtBPj_a6zvht3awB_nvkdXQmWJ0i0TKcizDweg?e=cwhDen)
-[FTspaCy DS2](https://fuerzaaereacolombia-my.sharepoint.com/:f:/g/personal/alexandra_zabala_fac_mil_co/EuOZ89G_HtBPj_a6zvht3awB_nvkdXQmWJ0i0TKcizDweg?e=cwhDen)
+[FTspaCy_DS1](https://drive.google.com/drive/folders/1xF4Hk8fFBry5k3swrCwGVn0hsaoM094z?usp=sharing)
+[FTspaCy DS2](https://drive.google.com/drive/folders/1xF4Hk8fFBry5k3swrCwGVn0hsaoM094z?usp=sharing)
 
 spaCy is a Open-source software library that allows for the extraction of information from large volumes of data using Natural Language Processing in 26 different languages. SpaCy uses a neural network model within a transition-based parser model, incorporating **Convolutional Neural Network (CNN)** encoding layers to reduce the word dimensionality along three subnetworks[5].
 
